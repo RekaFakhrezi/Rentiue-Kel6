@@ -1,0 +1,6 @@
+.rt-type-tabs a { display: inline-flex; align-items: center; justify-content: center; min-height: 40px; min-width: 76px; padding: 0 16px; border: 1px solid var(--rt-line); border-radius: 3px; background: white; color: var(--rt-ink); font: 500 13px/1.3 var(--rt-sans); text-decoration: none; }
+.rt-type-tabs a[aria-current="true"] { background: var(--rt-ink); color: white; border-color: var(--rt-ink); }
+.rt-quote-button { margin-top: 12px; text-decoration: underline; text-underline-offset: .3em; }
+.rt-rental-options .rt-stepper input[type="number"] { appearance: auto; padding: 0 10px; text-align: left; height: 100%; }
+.rt-rental-options .rt-stepper input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: auto; }
+@media (max-width: 680px) { .rt-type-tabs a { min-width: 0; padding-inline: 13px; flex: 1; } }
